@@ -10,7 +10,7 @@ import (
 
 	"github.com/loft-sh/devspace/pkg/devspace/deploy/deployer/kubectl/walk"
 	"github.com/loft-sh/devspace/pkg/util/shell"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 // ExpressionMatchRegex is the regex to check if a value matches the devspace var format

@@ -2,7 +2,8 @@
 
 # Set required go flags
 export GO111MODULE=on
-export GOFLAGS=-mod=vendor
+#export GOFLAGS=-mod=vendor
+go mod download
 
 # Test if we can build the program
 echo "Building devspace..."

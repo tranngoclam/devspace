@@ -9,7 +9,7 @@ import (
 	"github.com/loft-sh/devspace/cmd"
 	"github.com/loft-sh/devspace/cmd/flags"
 	"github.com/loft-sh/devspace/pkg/devspace/config/versions/latest"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 
 	"github.com/loft-sh/devspace/cmd/use"
 	"github.com/loft-sh/devspace/e2e/framework"

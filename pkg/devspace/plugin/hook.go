@@ -18,7 +18,7 @@ import (
 	"github.com/loft-sh/devspace/pkg/util/yamlutil"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 func logErrorf(message string, args ...interface{}) {
@@ -44,7 +44,7 @@ const (
 var plugins []Metadata
 
 var pluginContextLock sync.Mutex
-var pluginContext map[string]string = map[string]string{}
+var pluginContext = map[string]string{}
 
 var pluginsOnce sync.Once
 

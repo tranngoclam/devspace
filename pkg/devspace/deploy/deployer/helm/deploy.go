@@ -8,7 +8,7 @@ import (
 
 	"github.com/loft-sh/devspace/pkg/devspace/helm/types"
 
-	yaml "gopkg.in/yaml.v2"
+	yaml "gopkg.in/yaml.v3"
 
 	"github.com/loft-sh/devspace/pkg/devspace/deploy/deployer/helm/merge"
 	"github.com/loft-sh/devspace/pkg/devspace/deploy/deployer/util"

@@ -3,7 +3,7 @@ package loader
 import (
 	"github.com/loft-sh/devspace/pkg/devspace/config/generated"
 	"github.com/loft-sh/devspace/pkg/devspace/kubectl"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 func OptionsWithGeneratedConfig(generatedConfig *generated.Config) *ConfigOptions {

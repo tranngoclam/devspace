@@ -6,23 +6,19 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/loft-sh/devspace/pkg/util/hash"
-
 	"github.com/loft-sh/devspace/pkg/devspace/config"
-	"github.com/loft-sh/devspace/pkg/devspace/dependency/util"
-
 	"github.com/loft-sh/devspace/pkg/devspace/config/constants"
 	"github.com/loft-sh/devspace/pkg/devspace/config/generated"
 	"github.com/loft-sh/devspace/pkg/devspace/config/loader"
 	"github.com/loft-sh/devspace/pkg/devspace/config/versions/latest"
+	"github.com/loft-sh/devspace/pkg/devspace/dependency/util"
 	fakekube "github.com/loft-sh/devspace/pkg/devspace/kubectl/testing"
 	"github.com/loft-sh/devspace/pkg/util/fsutil"
+	"github.com/loft-sh/devspace/pkg/util/hash"
 	"github.com/loft-sh/devspace/pkg/util/log"
-
+	"gopkg.in/yaml.v2"
 	"gotest.tools/assert"
 	"k8s.io/client-go/kubernetes/fake"
-
-	yaml "gopkg.in/yaml.v2"
 )
 
 type resolverTestCase struct {

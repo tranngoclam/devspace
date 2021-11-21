@@ -19,7 +19,7 @@ import (
 	"github.com/loft-sh/devspace/pkg/util/fsutil"
 	fakekubeconfig "github.com/loft-sh/devspace/pkg/util/kubeconfig/testing"
 	"github.com/loft-sh/devspace/pkg/util/log"
-	yaml "gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v2"
 	"gotest.tools/assert"
 	"k8s.io/client-go/tools/clientcmd/api"
 )

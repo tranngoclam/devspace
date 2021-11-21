@@ -7,7 +7,7 @@ import (
 
 	"github.com/loft-sh/devspace/pkg/util/fsutil"
 	"github.com/loft-sh/devspace/pkg/util/ptr"
-	yaml "gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v2"
 	"gotest.tools/assert"
 )
 

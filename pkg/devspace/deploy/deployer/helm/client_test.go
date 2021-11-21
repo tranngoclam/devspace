@@ -13,7 +13,7 @@ import (
 	"github.com/loft-sh/devspace/pkg/devspace/kubectl"
 	fakekube "github.com/loft-sh/devspace/pkg/devspace/kubectl/testing"
 	"github.com/loft-sh/devspace/pkg/util/ptr"
-	yaml "gopkg.in/yaml.v2"
+	yaml "gopkg.in/yaml.v3"
 	"gotest.tools/assert"
 	"k8s.io/client-go/kubernetes/fake"
 )

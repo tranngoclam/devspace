@@ -8,7 +8,7 @@ import (
 	"github.com/loft-sh/devspace/pkg/devspace/config/constants"
 	"github.com/loft-sh/devspace/pkg/devspace/config/generated"
 	"github.com/loft-sh/devspace/pkg/devspace/config/versions/latest"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 	"gotest.tools/assert"
 )
 

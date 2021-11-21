@@ -1,6 +1,6 @@
 package generated
 
-import "gopkg.in/yaml.v2"
+import "gopkg.in/yaml.v3"
 
 // Config specifies the runtime config struct
 type Config struct {

@@ -15,7 +15,7 @@ import (
 	"github.com/loft-sh/devspace/pkg/devspace/config/loader/variable"
 	"github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 
 	"github.com/loft-sh/devspace/pkg/devspace/config"
 	"github.com/loft-sh/devspace/pkg/devspace/config/constants"
